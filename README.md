@@ -42,4 +42,5 @@ The folder *meSIM* contains all R-scripts to simulate a dataset, taht can be use
     $ sh start.sh
 
 All parameters for the simulation can be changed in *scripts/Sim.r*. The parameters to change are explained in this file.
+
 **NOTE:** The calculation of EBVs is done with the mix99 program suite (MiX99 Development Team. "Solving Large Mixed Model Equations". Jokionene, Finnland, 2019. URL: https://www.luke.fi/en/services/mix99-solving-large-mixed-model-equations). If these programs are not available, the scripts to estimate (G)EBVs for the simulation have to be adapted.  
