@@ -33,8 +33,13 @@ In these two start-Scripts several functions are used, wich are defined in the s
 To run the start scripts, it is necessary to download the whole folder *meCODE* and save it localy. The start scripts have to be executed in the folder *meCode*. Otherwise the Variable *PATH_meBLUP* in the scripts has to be replaced with the full path to the folder *meMML*.
 
 #### Toy-Example
+In the folder *meCODE/toy_data* a very small toy dataset is provided. The two scripts can be tested on this toy dataset with the following code lines, assuming a $h^2$ of 0.3 and using all 4 SNPs. For all other parameters the default values are used. To run a single meBLUP evaluations this script can be used:
+    
+    R CMD BATCH '--args "toy_data/toy" "0.3" "all" '  meSTART.r
 
+To applay the developed approach to estimate EBVs the following script is used:
 
+    R CMD BATCH '--args "toy_data/toy" "0.3" "all" '  meSTART_EBV.r
 
 ### meSIM
 The folder *meSIM* contains all R-scripts to simulate a dataset, taht can be used for meBLUP. The simulation was used in [3] to get an independent dataset for test purpose. The script *start.sh* can be used to start the simulation:
