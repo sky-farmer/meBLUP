@@ -1,1 +1,40 @@
-# meBLUP
+# README #
+
+Model equation BLUP (meBLUP) is a new method to estimate genetic breeding values (GEBVs) combining relationships form pedigree and genotype information. In comparison to traditional methods, it is not necessary to set up any relationship matrix or its inverse. For further information check the publications listed below.
+
+The current repository includes the scripts developed and used in the Master's thesis of Himmelbauer, 2022 [3].
+
+## Publications
+
+[1] E. **Groeneveld** and A. **Neumaier**. "BLUP without (inverse) relationsship matrix". In: *World Congress on Genetics Applied to Livestock Production.* Electronic Poster Session-Theory to Application 3. Auckland, New Zealand, 2018, p.21. URL: http://www.wcgalp.org/system/files/proceedings/2018/blup-without-inverse-relationship-matrix.pdf 
+
+[2] A. **Neumaier** and E. **Groeneveld**. "Model equations for prediction with pedigree (unpublished work)". 2021
+
+[3] J. **Himmelbauer**. "Parameter estimation in model equations for animal breeding". Master's thesis, University of Vienna, 2022. URL: 
+
+## Description
+
+### meCODE
+The folder *meCode* contains all R-scripts to run meBLUP as it is described in the the Thesis Himmelbauer, 2022 [3]. 
+The file 
+
+    meSTART.r
+
+can be used to sstart a simple evaluation, estimating GEBVs, SNP-effects and varaince parameters (e.g. $h^2$) simultaneously. 
+
+The file 
+
+    meSTART_EBV.r
+
+contains the whole appraoch developed and tested in [3]. This appraoch is based on several steps and it can be used to estimate GEBVs, SNP-effects and some varaince parameters (e.g. polygenetic effect), if the heritability ($h^2$) or an estimator for $h^2$ is available for the respective dataset.
+
+In these two start-Scripts several functions are used, wich are defined in the scripts provided in the folder *meMML*. For detailed information please read [3] and the description in the header of the respective R-script. 
+
+To run the start scripts, it is necessary to download the whole folder *meCODE* and save it localy. The start scripts have to be executed in the folder *meCode*. Otherwise the Variable *PATH_meBLUP* in the scripts has to be replaced with the full path to the folder *meMML*.
+
+#### Toy-Example
+
+
+
+### meData
+
