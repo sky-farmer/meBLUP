@@ -1,6 +1,6 @@
 # README #
 
-Model equation BLUP (meBLUP) is a new method to estimate genetic breeding values (GEBVs) combining relationships form pedigree and genotype information. In comparison to traditional methods, it is not necessary to set up any relationship matrix or its inverse. meBLUp was developed by E. Groeneveld and A. Neumaier. For further information check the publications listed below.
+Model equation BLUP (meBLUP) is a new method to estimate genetic breeding values (GEBVs) combining relationships form pedigree and genotype information. In comparison to traditional methods, it is not necessary to set up any relationship matrix or its inverse. meBLUp was developed by E. **Groeneveld** and A. **Neumaier**. For further information check the publications listed below.
 
 The current repository includes the scripts developed and used in the Master's thesis of Himmelbauer, 2022 [3].
 
