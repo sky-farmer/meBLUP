@@ -1,0 +1,56 @@
+   # TITLE:
+             SINGLE-STEP ZWS
+   # INT-VAR:
+             tier fix
+   # REAL-VAR:
+             trait
+   # TRAITS:
+             1
+   # TRGRP:  
+             1 -
+   # SORT_R: Block sorting variable, Animal sorting variable 
+             - 1
+   # FIXRAN: Number of different fixed and random effect 
+             1 1 
+   # MODEL:  Subgrp. Trait Weight fix  Tier
+             1       1     -      2      1
+   # BLKORD: Order of effects within herd
+                                  -      1
+   # RANDOM: Tier
+              1
+   # RELATIONSHIPS
+      ssiL #external file (lower triangle) and relationship matrix
+             Gi.bin
+            PEDIGREE
+   # PEDIGR: Number: Tier
+               1      1
+   # REGRES: number: fix Tier
+               2    cl    cl
+   # COMBINE:
+             n
+   # RELMET: 
+             am+p 1.0
+   # INPFIL: 
+             gblup1s.dat
+   # VAR:   
+             2 1 f
+   # MISSVA: 
+             99999.999999
+   # SCALE:
+             n
+   # PEDFIL: 
+             gblup1s.ped 0
+   # PARFIL: 
+             gblup1s.var
+   # TMPDIR: 
+             ../tmp
+   # SOLFOR: Tier
+              y
+   # SOLUNF:
+             n
+   # PRECON: WpW, XpX
+             b  b  b   d
+   # NPROC:  Number of processors used by the solver program
+             1 
+   # COMBLK  Number of blocks in common area when using parallel processing
+             0
