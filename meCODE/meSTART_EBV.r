@@ -5,8 +5,8 @@
 #
 #-------------------------------------------
 #USAGE:
-#       R CMD BATCH '--args "PATH" "H2" "NSNP" '                /data/jhim/meBLUP/meCode/MML/meSTART_EBV.r
-#  or   R CMD BATCH '--args "PATH" "H2" "NSNP" "RHO" "SIG_SNP"' /data/jhim/meBLUP/meCode/MML/meSTART_EBV.r
+#       R CMD BATCH '--args "PATH" "H2" "NSNP" '                meSTART_EBV.r
+#  or   R CMD BATCH '--args "PATH" "H2" "NSNP" "RHO" "SIG_SNP"' meSTART_EBV.r
 # 
 #--------------------------------------------
 #INPUT:

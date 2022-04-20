@@ -5,15 +5,15 @@
 #
 #-------------------------------------------
 #USAGE:
-#       R CMD BATCH '--args "PATH" "H2" "NSNP" '                          /data/jhim/meBLUP/meCode/MML/meSTART_EBV.r
-#  or   R CMD BATCH '--args "PATH" "H2" "NSNP" "RHO" "SIG_HYB" "SIG_SNP"' /data/jhim/meBLUP/meCode/MML/meSTART_EBV.r
+#       R CMD BATCH '--args "PATH" "H2" "NSNP" '                          meSTART.r
+#  or   R CMD BATCH '--args "PATH" "H2" "NSNP" "RHO" "SIG_HYB" "SIG_SNP"' meSTART.r
 # 
 #--------------------------------------------
 #INPUT:
 #   PATH..............full path to dataset and name of the dataset
 #   H2................known true H2
 #   NSNP..............number of SNPs used
-#   ------------ and optional ------------------------
+#   --------------- and optional ------------------------
 #   RHO...............starting value for Rho (default: 0.2)
 #   SIG_HYB...........starting value for SIG_HYB (default: 1)
 #   SIG_SNP...........starting value for SIG_SNP (default: 0.01)
@@ -35,6 +35,8 @@
 #
 # Himmelbauer, 29.12.2021 | last update 20.04.2022
 ##################################################################################
+
+PATH_meBLUP<<-       'meMML/'   # Path to scripts with functions for meBLUP (based on MML)
 
 #Package check
 ## packages needed in the Script
