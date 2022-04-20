@@ -15,7 +15,7 @@ The current repository includes the scripts developed and used in the Master's t
 ## Description
 
 ### meCODE
-The folder *meCode* contains all R-scripts to run meBLUP as it is described in the the Thesis Himmelbauer, 2022 [3]. 
+The folder *meCODE* contains all R-scripts to run meBLUP as it is described in the the Thesis Himmelbauer, 2022 [3]. 
 The file 
 
     meSTART.r
@@ -36,5 +36,10 @@ To run the start scripts, it is necessary to download the whole folder *meCODE* 
 
 
 
-### meData
+### meSIM
+The folder *meSIM* contains all R-scripts to simulate a dataset, taht can be used for meBLUP. The simulation was used in [3] to get an independent dataset for test purpose. The script *start.sh* can be used to start the simulation:
 
+    $ sh start.sh
+
+All parameters for the simulation can be changed in *scripts/Sim.r*. The parameters to change are explained in this file.
+**NOTE:** The calculation of EBVs is done with the mix99 program suite (MiX99 Development Team. "Solving Large Mixed Model Equations". Jokionene, Finnland, 2019. URL: https://www.luke.fi/en/services/mix99-solving-large-mixed-model-equations). If these programs are not available, the scripts to estimate (G)EBVs for the simulation have to be adapted.  
