@@ -10,7 +10,7 @@ The current repository includes the scripts developed and used in the Master's t
 
 [2] J. **Himmelbauer**. "Parameter estimation in model equations for animal breeding". Master's thesis, University of Vienna, 2022. URL: 
 
-[3] A. **Neumaier** and E. **Groeneveld**. "Model equations for prediction with pedigree (unpublished work)". 2021
+[3] A. **Neumaier** and E. **Groeneveld**. "Model equations for prediction with pedigree". Manuscript in preparation. 2022.
 
 ## Description
 
