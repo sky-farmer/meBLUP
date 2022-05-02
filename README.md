@@ -49,3 +49,9 @@ The folder *meSIM* contains all R-scripts to simulate a dataset, taht can be use
 All parameters for the simulation can be changed in *scripts/Sim.r*. The parameters to change are explained in this file.
 
 **NOTE:** The calculation of EBVs is done with the mix99 program suite (MiX99 Development Team. "Solving Large Mixed Model Equations". Jokionene, Finnland, 2019. URL: https://www.luke.fi/en/services/mix99-solving-large-mixed-model-equations). If these programs are not available, the scripts to estimate (G)EBVs for the simulation have to be adapted.  
+
+## License
+The code is licensed with GNU GENERAL PUBLIC LICENSE Version 2 (https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). So everybody can freely use (even for commercially) and modify the code, under some conditions:
+*   give appropriate credit to the author and contributors of the code (associated Master's thesis and associated publications),
+*   state if and what changes were made and 
+*   publish your work under the same public license as the original.
