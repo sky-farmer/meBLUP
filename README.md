@@ -52,6 +52,6 @@ All parameters for the simulation can be changed in *scripts/Sim.r*. The paramet
 
 ## License
 The code is licensed with GNU GENERAL PUBLIC LICENSE Version 2 (https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). So everybody can freely use (even for commercially) and modify the code, under some conditions:
-*   give appropriate credit to the author and contributors of the code (associated Master's thesis and associated publications),
+*   give appropriate credit (associated Master's thesis and associated publications),
 *   state if and what changes were made and 
 *   publish your work under the same public license as the original.
